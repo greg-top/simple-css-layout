@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pure CSS layout with no responsive</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="font-size:30px;color:goldenrod;text-align:center">Pure CSS layout with no responsive</h1>
+    <!-- fluid containers starts here -->
+    <p style="margin: 20px auto; font-size: 20px; color:darkmagenta">Fluid containers</p>
+    <div class="container-fluid">
+        <div class="row">
+            <h2>test fluid container with single row and no columns</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo porro itaque, dolorum
+                molestiae
+                sed quibusdam mollitia animi quia veniam nobis hic perspiciatis? Cumque magnam culpa, perspiciatis
+                hic
+                vitae perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quos dignissimos
+                necessitatibus eos architecto ea excepturi, impedit velit expedita. Similique quam a eaque sapiente
+                quas
+                nulla dolor eveniet. Doloribus, itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis fugit voluptate aperiam nulla eveniet? Reiciendis veritatis quasi itaque laudantium, eius
+                iste
+                atque quam, vel corporis vitae, culpa corrupti voluptatem illo.</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h2>test fluid container with multiple rows with no columns</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
+                ducimus,
+                hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
+                temporibus
+                nisi doloribus ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe iure
+                porro
+                repellat ratione suscipit quasi dignissimos quis delectus sequi cum, laboriosam dicta, fugit eaque
+                excepturi aut velit molestias distinctio!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
+                ducimus,
+                hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
+                temporibus
+                nisi doloribus ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quisquam hic,
+                quidem deleniti eaque atque voluptatum nihil similique nobis eum provident quod praesentium
+                cupiditate
+                porro iure rem esse dolor labore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
+                ducimus,
+                hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
+                temporibus
+                nisi doloribus ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui molestias
+                tempore
+                nemo animi aperiam illo cum ullam magnam, ducimus tempora ipsa eius, at provident placeat, repellat
+                reprehenderit minus. Ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
+                ducimus,
+                hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
+                temporibus
+                nisi doloribus ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cumque atque nemo,
+                quis
+                omnis ea, eligendi sunt at ipsum accusantium, eaque non ducimus saepe voluptatum? Sint minus optio
+                laudantium quae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
+                ducimus,
+                hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
+                temporibus
+                nisi doloribus ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat labore
+                assumenda dicta, tempora, est magni obcaecati illo eligendi accusamus excepturi expedita cupiditate
+                velit quam repellendus vel officiis dolorum fugiat.</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h2>test container-fluid with multiple rows and various columns</h2>
+            <div class="tooltip col-20">
+                <p class="tooltiptext">col-20</p>
+                <p>column 20%</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>column 50%</p>
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>column 30%</p>
+            </div>
+        </div>
+        <div class="row">
+            <h4>test row with multiple columns + empty column in the middle</h4>
+            <div class="tooltip col-20">
+                <p class="tooltiptext">col-20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+            </div>
+            <div class="tooltip col-40 tooltip col-empty">
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+            </div>
+            <div class="tooltip col-10">
+                <p class="tooltiptext">col-10</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
+                    possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
+                    cumque esse omnis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
+                    possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
+                    cumque esse omnis.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>test row with overlow - when sum of columns width reached 100% width, next column should go to
+                second
+                line
+            </h3>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>test row with overlow - when sum of columns width reached 100% width, next column should go to
+                second
+                line - example 2
+            </h3>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-70">
+                <p class="tooltiptext">col-70</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <h2>test container-fluid with nested columns</h2>
+            <div class="col-80">
+                <div class="col-100 tooltip">
+                    <p>I'm nested 100% columns</p>
+                    <p class="tooltiptext">I'm nested 100% columns</p>
+                </div>
+                <div class="col-50 tooltip">
+                    <p>I'm nested 50% column</p>
+                    <p class="tooltiptext">I'm nested 50% column</p>
+                </div>
+                <div class="col-50 tooltip">
+                    <p>I'm nested 50% column</p>
+                    <p class="tooltiptext">I'm nested 50% column</p>
+                </div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+                <div class="col-10 col-empty"></div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+            </div>
+            <div class="col-20 tooltip">
+                <p class="tooltiptext">col-20 not nested</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, velit consequuntur eius, quidem
+                    repellendus quisquam sint perspiciatis unde architecto eaque beatae impedit vero placeat,
+                    repudiandae vel provident rem. Consequuntur, facere.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- standard containers starts here -->
+    <p style="margin: 20px auto; font-size: 20px; color:darkmagenta">Standard containers</p>
+    <div class="container">
+        <div class="row">
+            <h3>test standard container with single row and no columns</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, exercitationem dolorem corporis
+                quibusdam
+                rem iste officiis, facilis eum maiores placeat voluptatum pariatur. Repellat facere porro ipsum cum
+                blanditiis nostrum voluptates.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>test standard container with multiple rows</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aspernatur consequuntur fugiat
+                adipisci
+                illo quod dolor mollitia pariatur harum qui at unde reprehenderit, vero voluptatem nisi perspiciatis
+                inventore veritatis nesciunt.</p>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aspernatur consequuntur fugiat
+                    adipisci
+                    illo quod dolor mollitia pariatur harum qui at unde reprehenderit, vero voluptatem nisi
+                    perspiciatis
+                    inventore veritatis nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aspernatur consequuntur fugiat
+                    adipisci
+                    illo quod dolor mollitia pariatur harum qui at unde reprehenderit, vero voluptatem nisi
+                    perspiciatis
+                    inventore veritatis nesciunt.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>test standard container with various columns</h2>
+            <div class="tooltip col-20">
+                <p class="tooltiptext">col-20</p>
+                <p>column 20%</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>column 50%</p>
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>column 30%</p>
+            </div>
+        </div>
+        <div class="row">
+            <h4>test for columns with multiple lines content + empty column in the middle of the row</h4>
+            <div class="tooltip col-20">
+                <p class="tooltiptext">col-20</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+            </div>
+            <div class="tooltip col-40 tooltip col-empty">
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
+                    eos.
+                    Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
+                    rerum
+                    nemo ab aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repudiandae
+                    modi
+                    praesentium ipsam, tempore odio incidunt ipsa excepturi accusantium officia iusto quidem
+                    cupiditate
+                    eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
+            </div>
+            <div class="tooltip col-10">
+                <p class="tooltiptext">col-10</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
+                    possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
+                    cumque esse omnis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
+                    possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
+                    cumque esse omnis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>test with overlow layout - when columns width reached over 100% next column should go to second line
+            </h3>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>test with overlow layout - when columns width reached over 100% next column should go to second line
+            </h3>
+            <div class="tooltip col-50">
+                <p class="tooltiptext">col-50</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-30">
+                <p class="tooltiptext">col-30</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+            <div class="tooltip col-70">
+                <p class="tooltiptext">col-70</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
+                    harum,
+                    incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
+                    reiciendis
+                    minima, quod minus ratione? Molestias, et.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>test container with nested layout</h2>
+            <div class="col-80">
+                <div class="col-100 tooltip">
+                    <p>I'm nested 100% columns</p>
+                    <p class="tooltiptext">I'm nested 100% columns</p>
+                </div>
+                <div class="col-50 tooltip">
+                    <p>I'm nested 50% column</p>
+                    <p class="tooltiptext">I'm nested 50% column</p>
+                </div>
+                <div class="col-50 tooltip">
+                    <p>I'm nested 50% column</p>
+                    <p class="tooltiptext">I'm nested 50% column</p>
+                </div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+                <div class="col-10 col-empty"></div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+                <div class="col-30 tooltip">
+                    <p>I'm nested 30% column</p>
+                    <p class="tooltiptext">I'm nested 30% column</p>
+                </div>
+            </div>
+            <div class="col-20 tooltip">
+                <p class="tooltiptext">col-20</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, velit consequuntur eius, quidem
+                    repellendus quisquam sint perspiciatis unde architecto eaque beatae impedit vero placeat,
+                    repudiandae vel provident rem. Consequuntur, facere.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
