@@ -7,6 +7,7 @@
  - has empty columns to create gap in the row
  - has nesting columns feature
  - works with columns overflow
+ - has feature to hide element on responsive device (performance bug)
  - responsive with mobile first principle
 
 # how to create container
