@@ -28,4 +28,12 @@ TODO
 TODO
 
 # responsive
-TODO
+TODO - how to use col-* classes: when column is not changing on bigger device there is no needed to add extra class, <br> example: we have ```col-*-100```, next for tablet and large tablet ```col-*-50```, and finally for desktop we have ```col-*-30```. In this case we don't need to double tablet and large tablet classes!:<br>
+```
+<div class="col-mobile-100 col-tablet-50 col-dekstop-30">
+   markup here
+</div>
+```
+
+# how to hide elements in responsive
+TODO - here is a problem with too much HTML added to code!!

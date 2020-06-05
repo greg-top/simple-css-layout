@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pure CSS layout with no responsive</title>
+    <title>Pure CSS layout with responsive</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="style.css">
@@ -58,6 +58,8 @@
                 tempore
                 nemo animi aperiam illo cum ullam magnam, ducimus tempora ipsa eius, at provident placeat, repellat
                 reprehenderit minus. Ipsam.</p>
+        </div>
+        <div class="row">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt voluptas molestiae
                 ducimus,
                 hic libero. Minus, adipisci itaque explicabo doloremque quis, ipsa quos quod neque quibusdam
@@ -78,23 +80,23 @@
     <div class="container-fluid">
         <div class="row">
             <h2>test container-fluid with multiple rows and various columns</h2>
-            <div class="tooltip col-20">
-                <p class="tooltiptext">col-20</p>
-                <p>column 20%</p>
+            <div class="tooltip col-mobile-100 col-tablet-50 col-desktop-20">
+                <p class="tooltiptext">col-desktop-20</p>
+                <p>lorem ipsum</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
-                <p>column 50%</p>
+            <div class="tooltip col-mobile-100 col-tablet-50">
+                <p class="tooltiptext">col-desktop-50</p>
+                <p>lorem ipsum</p>
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
-                <p>column 30%</p>
+            <div class="tooltip col-mobile-100 col-desktop-30">
+                <p class="tooltiptext">col-desktop-30</p>
+                <p>lorem ipsum</p>
             </div>
         </div>
         <div class="row">
             <h4>test row with multiple columns + empty column in the middle</h4>
-            <div class="tooltip col-20">
-                <p class="tooltiptext">col-20</p>
+            <div class="tooltip col-mobile-100 col-tablet-50 col-large-tablet-30">
+                <p class="tooltiptext">col-desktop-20</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
                     eos.
                     Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
@@ -114,10 +116,10 @@
                     cupiditate
                     eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
             </div>
-            <div class="tooltip col-40 tooltip col-empty">
+            <div class="tooltip col-large-tablet-10 tooltip col-empty">
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
+            <div class="tooltip col-mobile-100 col-large-tablet-30 col-desktop-50">
+                <p class="tooltiptext">col-desktop-30</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
                     eos.
                     Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
@@ -128,8 +130,8 @@
                     cupiditate
                     eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
             </div>
-            <div class="tooltip col-10">
-                <p class="tooltiptext">col-10</p>
+            <div class="tooltip col-mobile-100 col-tablet-40 col-large-tablet-30 col-desktop-10">
+                <p class="tooltiptext">col-desktop-10</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
                     possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
                     cumque esse omnis.</p>
@@ -143,24 +145,24 @@
                 second
                 line
             </h3>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-mobile-100 col-tablet-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-mobile-100 col-tablet-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-mobile-100 col-tablet-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
@@ -173,24 +175,24 @@
                 second
                 line - example 2
             </h3>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-mobile-100 col-tablet-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
+            <div class="tooltip col-mobile-100 col-tablet-70 col-desktop-30">
+                <p class="tooltiptext">col-desktop-30</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-70">
-                <p class="tooltiptext">col-70</p>
+            <div class="tooltip col-mobile-100 col-tablet-30 col-desktop-70">
+                <p class="tooltiptext">col-desktop-70</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
@@ -202,35 +204,59 @@
     <div class="container-fluid">
         <div class="row">
             <h2>test container-fluid with nested columns</h2>
-            <div class="col-80">
-                <div class="col-100 tooltip">
-                    <p>I'm nested 100% columns</p>
-                    <p class="tooltiptext">I'm nested 100% columns</p>
+            <div class="col-mobile-100 col-tablet-100 col-desktop-80">
+                <div class="col-mobile-100 col-tablet-100 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 100% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 100% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 100% column on tablet</p>
+                    <p class="tooltiptext">I'm nested 100% column</p>
                 </div>
-                <div class="col-50 tooltip">
-                    <p>I'm nested 50% column</p>
+                <div class="col-mobile-50 col-tablet-50 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 50% column on tablet</p>
                     <p class="tooltiptext">I'm nested 50% column</p>
                 </div>
-                <div class="col-50 tooltip">
-                    <p>I'm nested 50% column</p>
+                <div class="col-mobile-50 col-tablet-50 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 50% column on tablet</p>
                     <p class="tooltiptext">I'm nested 50% column</p>
                 </div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-mobile-50 col-tablet-30 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 30% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 30% column on tablet</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
-                <div class="col-10 col-empty"></div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-mobile-10 col-mobile-hide col-empty"></div>
+                <div class="col-mobile-50 col-tablet-30 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 30% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 30% column on tablet</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-mobile-50 col-tablet-30 tooltip">
+                    <p class="col-mobile-hide col-tablet-hide col-large-tablet-hide">I'm nested 30% column on desktop
+                    </p>
+                    <p class="col-desktop-hide col-tablet-hide col-large-tablet-hide">I'm nested 50% column on mobile
+                    </p>
+                    <p class="col-desktop-hide col-mobile-hide">I'm nested 30% column on tablet</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
             </div>
-            <div class="col-20 tooltip">
-                <p class="tooltiptext">col-20 not nested</p>
+            <div class="col-mobile-100 col-tablet-100 col-desktop-20 tooltip">
+                <p class="tooltiptext">col-desktop-20 not nested</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, velit consequuntur eius, quidem
                     repellendus quisquam sint perspiciatis unde architecto eaque beatae impedit vero placeat,
                     repudiandae vel provident rem. Consequuntur, facere.</p>
@@ -239,7 +265,7 @@
     </div>
 
     <!-- standard containers starts here -->
-    <p style="margin: 20px auto; font-size: 20px; color:darkmagenta">Standard containers</p>
+    <!-- <p style="margin: 20px auto; font-size: 20px; color:darkmagenta">Standard containers</p>
     <div class="container">
         <div class="row">
             <h3>test standard container with single row and no columns</h3>
@@ -273,23 +299,23 @@
     <div class="container">
         <div class="row">
             <h2>test standard container with various columns</h2>
-            <div class="tooltip col-20">
-                <p class="tooltiptext">col-20</p>
-                <p>column 20%</p>
+            <div class="tooltip col-desktop-20">
+                <p class="tooltiptext">col-desktop-20</p>
+                <p>lorem ipsum</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
-                <p>column 50%</p>
+            <div class="tooltip col-desktop-50">
+                <p class="tooltiptext">col-desktop-50</p>
+                <p>lorem ipsum</p>
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
-                <p>column 30%</p>
+            <div class="tooltip col-desktop-30">
+                <p class="tooltiptext">col-desktop-30</p>
+                <p>lorem ipsum</p>
             </div>
         </div>
         <div class="row">
             <h4>test for columns with multiple lines content + empty column in the middle of the row</h4>
-            <div class="tooltip col-20">
-                <p class="tooltiptext">col-20</p>
+            <div class="tooltip col-desktop-20">
+                <p class="tooltiptext">col-desktop-20</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
                     eos.
                     Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
@@ -309,10 +335,10 @@
                     cupiditate
                     eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
             </div>
-            <div class="tooltip col-40 tooltip col-empty">
+            <div class="tooltip col-desktop-40 tooltip col-empty">
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
+            <div class="tooltip col-desktop-30">
+                <p class="tooltiptext">col-desktop-30</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis repellat qui vero quaerat
                     eos.
                     Corrupti voluptatum porro blanditiis mollitia exercitationem earum ab explicabo! Incidunt enim
@@ -323,8 +349,8 @@
                     cupiditate
                     eum consequuntur soluta quibusdam asperiores delectus omnis!</p>
             </div>
-            <div class="tooltip col-10">
-                <p class="tooltiptext">col-10</p>
+            <div class="tooltip col-desktop-10">
+                <p class="tooltiptext">col-desktop-10</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ducimus mollitia modi quo autem
                     possimus accusamus id soluta, earum necessitatibus ipsum sunt dolor quisquam dignissimos eum sed
                     cumque esse omnis.</p>
@@ -338,24 +364,24 @@
         <div class="row">
             <h3>test with overlow layout - when columns width reached over 100% next column should go to second line
             </h3>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-desktop-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-desktop-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-desktop-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
@@ -366,24 +392,24 @@
         <div class="row">
             <h3>test with overlow layout - when columns width reached over 100% next column should go to second line
             </h3>
-            <div class="tooltip col-50">
-                <p class="tooltiptext">col-50</p>
+            <div class="tooltip col-desktop-50">
+                <p class="tooltiptext">col-desktop-50</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-30">
-                <p class="tooltiptext">col-30</p>
+            <div class="tooltip col-desktop-30">
+                <p class="tooltiptext">col-desktop-30</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
                     reiciendis
                     minima, quod minus ratione? Molestias, et.</p>
             </div>
-            <div class="tooltip col-70">
-                <p class="tooltiptext">col-70</p>
+            <div class="tooltip col-desktop-70">
+                <p class="tooltiptext">col-desktop-70</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consequuntur voluptates
                     harum,
                     incidunt sunt voluptas dignissimos tempora nam optio repudiandae ullam blanditiis alias
@@ -395,41 +421,41 @@
     <div class="container">
         <div class="row">
             <h2>test container with nested layout</h2>
-            <div class="col-80">
-                <div class="col-100 tooltip">
-                    <p>I'm nested 100% columns</p>
+            <div class="col-desktop-80">
+                <div class="col-desktop-100 tooltip">
+                    <p>I'm nested 100% columns on desktop</p>
                     <p class="tooltiptext">I'm nested 100% columns</p>
                 </div>
-                <div class="col-50 tooltip">
-                    <p>I'm nested 50% column</p>
+                <div class="col-desktop-50 tooltip">
+                    <p>I'm nested 50% column on desktop</p>
                     <p class="tooltiptext">I'm nested 50% column</p>
                 </div>
-                <div class="col-50 tooltip">
-                    <p>I'm nested 50% column</p>
+                <div class="col-desktop-50 tooltip">
+                    <p>I'm nested 50% column on desktop</p>
                     <p class="tooltiptext">I'm nested 50% column</p>
                 </div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-desktop-30 tooltip">
+                    <p>I'm nested 30% column on desktop</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
-                <div class="col-10 col-empty"></div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-desktop-10 col-empty"></div>
+                <div class="col-desktop-30 tooltip">
+                    <p>I'm nested 30% column on desktop</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
-                <div class="col-30 tooltip">
-                    <p>I'm nested 30% column</p>
+                <div class="col-desktop-30 tooltip">
+                    <p>I'm nested 30% column on desktop</p>
                     <p class="tooltiptext">I'm nested 30% column</p>
                 </div>
             </div>
-            <div class="col-20 tooltip">
-                <p class="tooltiptext">col-20</p>
+            <div class="col-desktop-20 tooltip">
+                <p class="tooltiptext">col-desktop-20</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, velit consequuntur eius, quidem
                     repellendus quisquam sint perspiciatis unde architecto eaque beatae impedit vero placeat,
                     repudiandae vel provident rem. Consequuntur, facere.</p>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>
